@@ -1,0 +1,8 @@
+try  = tentar
+
+throw = lançar
+
+catch = capturar
+
+se uma exceçao ocorre no tr, o bloco encerra
+
