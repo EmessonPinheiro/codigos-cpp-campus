@@ -1,0 +1,13 @@
+Podemos criar um método construtor padrão, para inicializar cada objeto criado e personalizar sua inicialização
+
+um construtor é um método especial definido com o mesmo nome da classe e executado automaticamente quando um objeto é criado
+
+-não preciisa de retorno, e nao retorna valores
+-deve ser declarado como público
+
+se não especificarmos um construtor, o compilador ultilizará o construtor padrão
+exemplo
+
+class GradeBook{
+    public
+}
