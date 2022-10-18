@@ -4,5 +4,7 @@ throw = lançar
 
 catch = capturar
 
-se uma exceçao ocorre no tr, o bloco encerra
+se uma exceçao ocorre no try, o bloco encerra
+
+
 
