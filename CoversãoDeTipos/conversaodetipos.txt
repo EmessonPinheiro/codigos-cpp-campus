@@ -1,0 +1,13 @@
+aparentemente usa-se dynamic_cast<ondeCquerApontar>
+
+
+base
+
+derivadaA           derivadaA
+
+--------------------------
+conversao de tipos
+
+if typeid(A) !=typeid(b){
+    
+}
