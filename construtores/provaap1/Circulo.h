@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class Retangulo
+class Circulo
 {
 private:
     float base;
