@@ -1,8 +1,10 @@
-#include<iostream>>
+#include <iostream>>
 #include <string>
+#include <Forma.h>
+
 using namespace std;
 
-class Retangulo
+class Retangulo : public Forma
 {
 private:
     float base;
@@ -28,4 +30,15 @@ public:
         return altura;
     }
     
+    float calcularArea(){
+
+    }
+
+    float calcularPerimetro(){
+
+    }
+
+    string print(){
+
+    }
 };

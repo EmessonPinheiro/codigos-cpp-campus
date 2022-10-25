@@ -5,14 +5,14 @@ using namespace std;
 class Circulo
 {
 private:
-    float base;
-    float altura;
+    float raio;
+
 public:
 //    Forma();
 //    ~Forma();
 
     //MÉTODOS
-    void setBase(float valorbase){
+    void setRaio(float valorbase){
         base = valorbase;
     }
 
