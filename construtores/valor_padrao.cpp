@@ -5,7 +5,7 @@
 
     public:
  //valores padrão
-    valor_padrao(int p = -1, float v = -1.0){
+    valor_padrao(int p = -5, float v = -1.0){
 
         valor = v;
         pecas = p;
@@ -25,5 +25,12 @@
 
 int main(){
 
+    valor_padrao a,b(10,10);
+
+    cout<<a.getPecas()<<endl;
+    cout<<a.getValor()<<endl;
+    cout<<b.getPecas()<<endl;
+    cout<<b.getValor()<<endl;
+        return 0;
 }
  
