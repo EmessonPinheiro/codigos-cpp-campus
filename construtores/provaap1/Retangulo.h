@@ -12,11 +12,10 @@ public:
 //    ~Forma();
 
     //MÉTODOS
-    void setbase(float valorbase){
+    void setBase(float valorbase){
         base = valorbase;
     }
-    void print(){
 
-    }
+    float getBase
     
 };
