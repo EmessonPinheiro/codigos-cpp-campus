@@ -30,8 +30,11 @@ public:
         return altura;
     }
     
-    float calcularArea(){
-            float Area = getBase()*getAltura();
+    float calcularArea(float essaBase, float essaAltura){
+            essaBase = getBase();
+            essaAltura = getAltura();
+
+            float Area = essaBase*essaAltura;
             return Area;
     }
 
