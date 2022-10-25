@@ -26,7 +26,7 @@
       float valor;
       int pecas;
       static int contador;
- 
+    
  
  };
 
