@@ -25,8 +25,14 @@ class GradeBook{
         void displayMessage()
         {
             cout<<"wellcome to the gradebook!\n"<<getCourseName()<<"!"<<endl;
+
         }
 
         private:
             string courseName;
 };
+
+int main(){
+    void displayMessage();
+    cout<<"ta mostrando na tela"<<endl;
+}
