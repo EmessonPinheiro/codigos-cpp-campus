@@ -7,7 +7,7 @@ class GradeBook{
     public:
 
     //o construtor inicializa courseName com a string fornecida como argumento
-        GradeBook(string name)
+        GradeBook(string name)//inicio do construtor
         {
             setCourseName(name); //chame a função set para inicializar courseName
         }//fim do construtor GradeBook
@@ -29,9 +29,4 @@ class GradeBook{
 
         private:
             string courseName;
-
-
-
-
-
 };
