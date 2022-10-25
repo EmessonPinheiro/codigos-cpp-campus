@@ -6,16 +6,17 @@ class Forma
 {
 private:
     int origem;
+
 public:
-    Forma();
-    ~Forma();
+//    Forma();
+//    ~Forma();
 
-    //MÉTODOS
+
+//MÉTODOS
     void mover(){
-
     }
-    void print(){
 
+    void print(){
     }
     
 };
