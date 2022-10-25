@@ -1,8 +1,9 @@
-#include<iostream>>
+#include<iostream>
 #include <string>
+#include <Forma.h>
 using namespace std;
 
-class Circulo
+class Circulo : public Forma
 {
 private:
     float raio;
@@ -12,20 +13,24 @@ public:
 //    ~Forma();
 
     //MÉTODOS
-    void setRaio(float valorbase){
-        base = valorbase;
+    void setRaio(float valorRaio){
+        raio = valorRaio;
     }
 
-    float getBase(){
-        return base;
+    float getRaio(){
+        return raio;
     }
 
-    void setAltura(float valorAltura){
-        altura = valorAltura;
+    float calcularArea(){
+        float area = (raio*raio)*3.14;
     }
 
-    float getAltura(){
-        return altura;
+    float calcularPerimetro(){
+        float perimetro = raio*3.14*2;
+    }
+
+    string print(){
+        
     }
     
 };

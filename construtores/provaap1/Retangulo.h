@@ -1,4 +1,4 @@
-#include <iostream>>
+#include <iostream>
 #include <string>
 #include <Forma.h>
 
@@ -31,10 +31,16 @@ public:
     }
     
     float calcularArea(){
-
+            float Area = getBase()*getAltura();
+            return Area;
     }
 
+
     float calcularPerimetro(){
+        float Perimetro = (getBase()*2) + (getAltura()*2);
+    }
+
+    string print(){
 
     }
 
