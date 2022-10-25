@@ -3,7 +3,7 @@
 
  class valor_padrao{
 
- public:
+    public:
  //valores padrão
     valor_padrao(int p = -1, float v = -1.0){
 
@@ -19,9 +19,11 @@
     }
 
     private:
-    float valor;
-    int pecas;
+      float valor;
+      int pecas;
  };
 
+int main(){
 
+}
  
