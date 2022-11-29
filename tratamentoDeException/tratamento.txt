@@ -1,1 +1,0 @@
-quando ocorre uma excessao todo o bloco do try encerra
